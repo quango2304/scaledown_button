@@ -1,8 +1,8 @@
 name: scaledownbutton
 description: Scale down the child when click
 version: 0.0.1
-author:
-homepage:
+author: Quan Ngo<quanngovan98@gmail.com>
+homepage: https://github.com/quanngovan98/scaledown_button
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

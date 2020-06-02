@@ -1,4 +1,4 @@
-Scale down the child when click \n
+Scale down the child when click /n
 **Example**
 ```
 ScaledownButton(

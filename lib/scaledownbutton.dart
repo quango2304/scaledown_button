@@ -24,6 +24,13 @@ class _ScaleDownButtonState extends State<ScaleDownButton>
         AnimationController(vsync: this, duration: Duration(milliseconds: 100));
   }
 
+
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
